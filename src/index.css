@@ -1,0 +1,110 @@
+body {
+  margin: 0 auto;
+  width: 55%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  border-radius:20px;
+  margin-top:4rem;
+  height: 550px inherit;
+  
+}
+
+.header{
+  color: rgb(32, 70, 32);
+  background-color: #52B788;
+  height:6rem;
+  /* margin-top:-1px; */
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form{
+  display:flex;
+  height:3rem;
+  padding:3px;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.formText{
+  width:200px;
+  height:22px;
+  border-radius: 20px;
+  border-color: rgb(140, 156, 116);
+  padding:5px;
+ 
+}
+.formText:focus{
+  width:280px;
+  height:22px;
+  padding:5px;
+  border-radius: 20px;
+  border-color:#B7E4C7 ;
+  text:15px;
+  color:rgb(51, 51, 51);
+  outline: none;
+}
+
+.formSubmit{
+  width:100px;
+  height: 28px;
+  border-radius: 15px;
+  background-color:#2D6A4F;
+  font-weight: 600;
+  color: #D8F3DC;
+  outline:none
+}
+
+.buttonBox{
+  border-bottom:2px solid #92b1a3;
+  display:flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  padding:10px;
+}
+
+.buttons{
+  width:inherit;
+  height: 28px;
+  border-color: #98cfb7;
+  color:#68a371;
+  border-radius: 3px;
+}
+
+.tasks{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 5px 20px 5px 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #d4e4d6;
+  padding:5px;
+}
+.tasks input{
+  margin-left: 20px;
+  
+}
+.tasks button{
+  width:inherit;
+  height: 28px;
+  border-color: #40916C;
+  color:#68a371;
+  border-radius: 3px;
+  margin-right:10px;
+}
+
+.taskNumber{
+  margin-left:100px;
+  color: rgb(32, 70, 32);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
